@@ -19,7 +19,7 @@ function App() {
     <>
 
     <Suspense fallback={<p>User Loading....</p>}>
-    <User userDataPromise={userDataPromise}></User>
+    <User userDataPromise={userDataPromise()}></User>
     </Suspense>
       {/* <button onlclick='handleButtonClick()'>Click old style</button>
       <button onClick={handleButtonClick}>Click me</button>
