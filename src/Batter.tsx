@@ -22,10 +22,10 @@ export default function Batter() {
         <>
             <h3>RunsTotal:{newRuns}</h3>
             <button onClick={handleRuns}>Add Single Runs</button>
-            <button onClick={hanldeAddtow}>add two</button>
-            <button onClick={handleAddthree}>add three</button>
-            <button onClick={handleAddFour}>add four</button>
-            <button onClick={handleAddSix}>add six</button>
+            <button onClick={hanldeAddtow}>Add two</button>
+            <button onClick={handleAddthree}>Add three</button>
+            <button onClick={handleAddFour}>Add four</button>
+            <button onClick={handleAddSix}>Add six</button>
         </>
     )
 }
