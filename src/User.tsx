@@ -1,4 +1,5 @@
 import { use } from "react";
+import './user.css';
 
 const User = ({ userDataPromise }) => {
     const users = use(userDataPromise);
@@ -6,10 +7,10 @@ const User = ({ userDataPromise }) => {
 
     return (
         <div>
-            <h3>UserName:{users.length}</h3>
+            <h3>Total User:{users.length}</h3>
             {
                 users.map((user) => {
-                    return <p>Name:{user.name}</p>;
+                    return <p className="user">Name:{user.name}</p>;
                 })
             }
         </div>
